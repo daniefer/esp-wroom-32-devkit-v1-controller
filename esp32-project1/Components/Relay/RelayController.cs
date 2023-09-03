@@ -5,6 +5,9 @@ using System.Device.Gpio;
 
 namespace esp32_project1.Components.Relay
 {
+    /// <summary>
+    /// Controlles a GPIO Pin for use with a Relay
+    /// </summary>
     internal class RelayController
     {
         private GpioPin gpioPin;

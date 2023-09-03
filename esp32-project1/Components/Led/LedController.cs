@@ -5,6 +5,9 @@ using esp32_project1.Exceptions;
 
 namespace esp32_project1.Components.Led
 {
+    /// <summary>
+    /// Controlles a GPIO Pin for use with an LED
+    /// </summary>
     internal class LedController
     {
         private GpioPin gpioPin;
